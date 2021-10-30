@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body { 
+    background: url('../assets/img/backgr2.PNG') no-repeat;
+    background-size:720px 570px;
+    background-position: 75% 0%;
+    text-align: center;
+}
+
+.logo{
+    height:12.25px;
+    width:119.83px;
+    margin-top:21px;
+    margin-left:48px;
+    display: block;
+    float:left;
+}
+
+.title{
+    font-family: 'Gotham Light';
+    font-size: 17px;
+    position:absolute;
+    top:50px;
+    left:50px;
+    line-height: 17px;
+}
+
+.subtitle{
+    font-family: 'Gotham Medium';
+    font-size: 28px;
+    position:absolute;
+    top:67px;
+    left:50px;
+    line-height: 36px;
+}
+
+.paragraph{
+    font-family: 'Gotham SSm';
+    font-size: 14px;
+    position:absolute;
+    top:181px;
+    left:50px;
+    width: 315px;
+    height: 181px;
+    line-height: 21px;
+    text-align: left;
+    color:#393c41;
+}
+
+.list{
+    position: absolute;
+    top:430px;
+    left:50px;
+    list-style: none;
+    display: inline-block;
+    overflow: auto;
+    font-size: 12px;
+    font-family: 'Gotham SSm';
+    
+}
+
+.list li{
+    color:black;
+    float: left;
+}
+.list a{
+    line-height: 14.4px;
+    display: block;
+    color:black;
+    text-decoration: none;
+    padding: 13px 27px;
+    border-radius: 32px;
+    border-style: solid;
+    border-width:3px;
+    margin:2px;
+}
+.list a:hover{
+    background-color:black;
+    color:white;
+    border-radius: 32px;
+    border-color: black;
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('../assets/fonts/1822-font\(medium\).otf');
+}
+
+@font-face {
+    font-family: 'Gotham SSm';
+    src: url('../assets/fonts/1742-font\(ssm\).otf');
+}
+
+@font-face {
+    font-family: 'Gotham Light';
+    src: url('../assets/fonts/1824-font\(light\).otf');
+}
+
+.mas{
+    display: block;
+    padding-top: 12px;
+    background-color: white;
+    border-radius: 30px;
+    width:52px;
+    height: 52px;
+    position: absolute;
+    top:450px;
+    left:1200px;
+    box-shadow: 1px 1px 2px gray,-1px -1px 2px gray;
+}
+
+.page{
+    position:absolute;
+    top:179px;
+    left:6px;
+    list-style: none
+}
+
+.page a{
+    color: rgba(128, 128, 128, 0.288);
+    background-color: rgba(128, 128, 128, 0.288);
+    width:3px;
+    height: 24px;
+    text-decoration: none;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: 'Gotham Light';
+}
+
+.page a:hover{
+    color:gray;
+    background-color: gray;
+}

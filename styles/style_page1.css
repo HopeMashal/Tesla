@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body { 
+    background: url('../assets/img/backgr1.jpg') no-repeat;
+    background-size:100%;
+    background-position: 100% 42%;
+    text-align: center;
+}
+
+.logo{
+    height:12.25px;
+    width:119.83px;
+    margin-top:21px;
+    margin-left:48px;
+    display: block;
+    float:left;
+}
+
+nav > ul{
+    margin-left:329px;
+    padding-top:17px;
+}
+
+nav ul li{
+    display: block;
+    float:left;
+}
+
+nav li a{
+    padding:6px 16px;
+}
+
+nav ul a{
+    text-decoration:none;
+    font-family: 'Gotham SSm';
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav ul a:hover{
+    background-color: #ffffff33;
+    border-radius: 12px;
+
+}
+
+.rightmenu ul li{
+    display:block;
+    float: right;
+}
+
+nav > .rightmenu ul{
+    margin-right:32px;
+}
+
+.model{
+    font-size: 40px;
+    font-family: 'Gotham Medium';
+    text-align: center;
+    color:white;
+    margin-top: 78px;
+    font-weight: 500px;
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('../assets/fonts/1822-font\(medium\).otf');
+}
+
+@font-face {
+    font-family: 'Gotham SSm';
+    src: url('../assets/fonts/1742-font\(ssm\).otf');
+}
+
+@font-face {
+    font-family: 'Gotham Light';
+    src: url('../assets/fonts/1824-font\(light\).otf');
+}
+
+.ord1{          
+    list-style:none;
+    margin: 10px 15px;
+    padding:0;
+    display:inline-block;
+    overflow: auto;
+    margin: left 10%;
+    padding-top:300px;
+
+}
+.ord1 li{
+    color:white;
+    float: left;
+    margin-left: 60px;
+}
+.ord1 li a{
+    display: block;
+    color:#fff;
+    text-decoration: none;
+    padding: 13px 37px;
+    border-radius: 40px;
+    border-style: solid;
+    border-width:3px;
+}
+.transbutton a:hover{
+    background-color:white;
+    color:black;
+    border-radius: 40px;
+    border-color: white;
+}
+
+.speed-icon{
+    display: inline-block;
+    height:21px;
+    width:40px;
+    bottom:4px;
+}
+
+.L1{
+    font-size: 28px;
+    font-family: 'Gotham Medium';
+}
+
+.L2{
+    font-size: 24px;
+    font-family: 'Gotham Medium';
+}
+
+.L3{
+    font-size: 12px;
+    font-family: 'Gotham SSm';
+}
+
+.mas{
+    display: block;
+    padding-top: 12px;
+    background-color: white;
+    border-radius: 30px;
+    width:52px;
+    height: 52px;
+    position: absolute;
+    top:450px;
+    left:1200px;
+    box-shadow: 1px 1px 2px gray,-1px -1px 2px gray;
+}
+
+.page{
+    position:absolute;
+    top:179px;
+    left:6px;
+    list-style: none
+}
+
+.page a{
+    color: #ffffff33;
+    background-color: #ffffff33;
+    width:3px;
+    height: 24px;
+    text-decoration: none;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: 'Gotham Light';
+}
+
+.page a:hover{
+    color:gray;
+    background-color: gray;
+}
+

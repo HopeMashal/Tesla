@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body { 
+    background: url('../assets/img/backgr3.jpg') no-repeat;
+    background-size: 137.5%; 
+    background-position: 80% 35%; 
+    text-align: center;
+}
+
+.logo{
+    height:12.25px;
+    width:119.83px;
+    margin-top:21px;
+    margin-left:48px;
+    display: block;
+    float:left;
+}
+
+.bottom1{
+    background-color: white;
+    height: 180px;
+    width:100%;
+    position:absolute;
+    top:395px;
+}
+
+.title{
+    font-family: 'Gotham Light';
+    font-size: 17px;
+    position:absolute;
+    top:48px;
+    left:153px;
+    line-height: 17px;
+}
+
+.subtitle{
+    font-family: 'Gotham Medium';
+    font-size: 28px;
+    position:absolute;
+    top:65px;
+    left:153px;
+    line-height: 36px;
+}
+
+.list{
+    position: absolute;
+    top:115px;
+    left:153px;
+    list-style: none;
+    display: inline-block;
+    overflow: auto;
+    font-size: 12px;
+    line-height: 21px;
+    font-family: 'Gotham SSm';
+    
+}
+
+.list li{
+    color:black;
+    float: left;
+}
+.list a{
+    line-height: 14.4px;
+    display: block;
+    color:black;
+    text-decoration: none;
+    padding: 13px 27px;
+    border-radius: 32px;
+    border-style: solid;
+    border-width:3px;
+    margin:2px;
+}
+.list a:hover{
+    background-color:black;
+    color:white;
+    border-radius: 32px;
+    border-color: black;
+}
+
+.botleft{
+    float:left;
+    width:29%;
+}
+
+.botright{
+    float:right;
+    width:60%;
+    position: absolute;
+    top:48px;
+    left:504px;
+}
+
+.botright p{
+    color:#393c41;
+    font-family: 'Gotham SSm';
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    width: 624px;
+}
+
+.inf{          
+    padding:0;
+    display:inline-block;
+    overflow: auto;
+    padding-top:300px;
+    position: absolute;
+    top:-70px;
+    left:158px;
+    text-align: center;
+}
+
+.box{
+    float:left;
+    width:27%;
+    color:white;
+    margin:10px;
+
+}
+
+.box p{
+    width:298px;
+}
+
+.speed-icon{
+    display: inline-block;
+    height:21px;
+    width:40px;
+    bottom:4px;
+}
+
+.L1{
+    font-size: 28px;
+    font-family: 'Gotham Medium';
+}
+
+.L2{
+    font-size: 24px;
+    font-family: 'Gotham Medium';
+}
+
+.L3{
+    font-size: 12px;
+    font-family: 'Gotham SSm';
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('../assets/fonts/1822-font\(medium\).otf');
+}
+
+@font-face {
+    font-family: 'Gotham SSm';
+    src: url('../assets/fonts/1742-font\(ssm\).otf');
+}
+
+@font-face {
+    font-family: 'Gotham Light';
+    src: url('../assets/fonts/1824-font\(light\).otf');
+}
+
+.mas{
+    display: block;
+    padding-top: 12px;
+    background-color: white;
+    border-radius: 30px;
+    width:52px;
+    height: 52px;
+    position: absolute;
+    top:450px;
+    left:1200px;
+    box-shadow: 1px 1px 2px gray,-1px -1px 2px gray;
+}
+
+.page{
+    position:absolute;
+    top:179px;
+    left:6px;
+    list-style: none
+}
+
+.page a{
+    color: #ffffff33;
+    background-color: #ffffff33;
+    width:3px;
+    height: 24px;
+    text-decoration: none;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: 'Gotham Light';
+}
+
+.page a:hover{
+    color:gray;
+    background-color: gray;
+}
